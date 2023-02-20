@@ -11,7 +11,7 @@
         {
             "name": "gcr.io/google.com/cloudsdktool/cloud-sdk",
             "entrypoint": "gcloud",
-            "args": ["run", "deploy", "docker-guide", "--image", "gcr.io/$PROJECT_ID/docker-guide:$COMMIT_SHA", "--region", "REGION"]
+            "args": ["run", "deploy", "docker-guide", "--image", "gcr.io/$PROJECT_ID/docker-guide:$COMMIT_SHA", "--region", "us-central1"]
         }
     ],
     "images": ["gcr.io/$PROJECT_ID/docker-guide:$COMMIT_SHA"]
