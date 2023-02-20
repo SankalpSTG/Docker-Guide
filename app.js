@@ -2,9 +2,9 @@ const express = require('express')
 
 const app = express()
 
-app.get("/test", (req, res) => {
+app.get("/test2", (req, res) => {
     res.json({
-        message: "Test"
+        message: "Test2"
     })
 }) 
 app.get("/", (req, res) => {
