@@ -2,6 +2,11 @@ const express = require('express')
 
 const app = express()
 
+app.get("/test", (req, res) => {
+    res.json({
+        message: "Test"
+    })
+}) 
 app.get("/", (req, res) => {
     res.json({
         message: "Working fine"
